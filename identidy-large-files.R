@@ -46,6 +46,8 @@ if (nrow(large_files_info) > 0) {
   # Format the paths for .gitattributes
   lfs_entries <- paste0(large_file_paths, lfs_command)
 
+  large_file_paths <- sub("^\\./", "", large_file_paths)
+
   # Write the lines to .gitattributes, appending to existing file if present.
   # Use an explicit file connection opened in 'append' mode ("a") for backward
   # compatibility with older R versions that don't support writeLines(append=TRUE).
