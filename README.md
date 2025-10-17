@@ -13,4 +13,5 @@ This R script scans a directory for files larger than **100 MB** and automatical
    ```
 
 **Important:** Always commit large files via Git LFS; trying to push them normally will fail.
+
 For more details check out the official [Git Large File Storage Documentation](https://git-lfs.com/).
