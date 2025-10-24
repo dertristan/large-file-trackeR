@@ -1,4 +1,4 @@
-# large-file-trackeR
+# glftrackeR: Automated Git LFS Tracking for Large Files
 
 **Quick summary:**  
 This R script scans a directory for files larger than **100 MB** and automatically adds them to `.gitattributes` for **Git LFS tracking**. It’s useful for keeping large datasets, media files, or other heavy resources out of your main Git history.
